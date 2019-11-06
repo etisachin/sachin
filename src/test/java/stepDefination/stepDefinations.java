@@ -26,6 +26,7 @@ public class stepDefinations extends Base {
 		@Given("^Navigate to \"([^\"]*)\" Site$")
 		public void navigate_to_Site(String arg1) throws Throwable {
 		    driver.get(arg1);
+		    System.out.println(":=Page load ho gya master");
 		    driver.manage().window().maximize();
 		}
 
