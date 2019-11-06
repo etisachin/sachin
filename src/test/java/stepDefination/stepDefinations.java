@@ -41,7 +41,7 @@ public class stepDefinations extends Base {
 	    	 a.moveToElement(AHP.sign_in()).click().build().perform();
 		}
 
-		@When("^When user enters (.+) and (.+) and click login$")
+		@When("^When user enters (.+) and (.+) and click login$") 
 		public void when_user_enters_and_and_click_login(String arg1, String arg2) throws Throwable {
 		    
 			login_page lp= new login_page(driver);
